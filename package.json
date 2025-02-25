@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend course",
+  "main": "index.js",
+  "scripts": {
+    "start": "Node index.js"
+  },
+  "keywords": [
+    "backend",
+    "frontend"
+  ],
+  "author": "ayush",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
