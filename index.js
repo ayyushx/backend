@@ -8,7 +8,7 @@ app.get('/', (req,res) => {
     res.send("Hello World");
 });
 
-app.get('/twitter', (req,res) => {
+app.get('/twitter', (req,res) => { // the '/' demonstrates the page we are going to visit
     res.send("<h1>Twitter Page</h1>");
 })
 
