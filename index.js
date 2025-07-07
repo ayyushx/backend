@@ -2,7 +2,7 @@ require('dotenv').config() //To import the usage of .env file
 const express = require('express');
 const app = express();
 
-const port = 4000 || process.env.PORT; //This is local variable but we also have global variable declared inside .env file
+const port =  process.env.PORT; //This is local variable but we also have global variable declared inside .env file
 
 app.get('/', (req,res) => {
     res.send("Hello World");
